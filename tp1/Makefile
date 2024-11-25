@@ -1,6 +1,6 @@
 #!/usr/bin/make -f
 
-include ../utils/config.mk
+include ./config_tp1.mk
 objects += tp.o
 include ../utils/rules.mk
 #-include $(dependencies)
